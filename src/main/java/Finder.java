@@ -1,5 +1,5 @@
 public class Finder {
-    public Integer findMax(int[] intArray) {
+    public static Integer findMax(int[] intArray) {
         if (intArray == null || intArray.length == 0)
             return null;
         int result = intArray[0];
@@ -10,7 +10,7 @@ public class Finder {
         return result;
     }
 
-    public Integer findMin(int[] intArray) {
+    public static Integer findMin(int[] intArray) {
         if (intArray == null || intArray.length == 0)
             return null;
         int result = intArray[0];
